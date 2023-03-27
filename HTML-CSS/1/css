@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#title {
+  text-align: center;
+}
+
+#survey-form {
+  width: 60%;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #2ecc71;
+}
+
+select {
+  height: 35px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+#error-message {
+  color: red;
+}
