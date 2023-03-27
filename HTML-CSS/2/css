@@ -1,56 +1,37 @@
-nav{
-  position: fixed;
-  width: 100%;
-  text-align: right;
-  font-size: 24pt;
-  top: 0%;
-  right: 5px;
-  background-color: #000000;
-  color: #ffffff;
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
-@media (max-width: 500px){
-  nav{
-    display: none;
-  }
-}
-a{
-  color: #ffffff;
-}
-main{
+
+#title {
   text-align: center;
-  background-color: black;
-  font-family:Pacifico
 }
-h1{
-  font-size: 48pt;
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
-h2{
-  font-size: 24pt;
+
+#image {
+  max-width: 100%;
+  height: auto;
 }
-p{
-  font-size: 12pt;
+
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
 }
-#welcome-section{
-  background-color:#251a4a;
-  color: #FFFFFF;
-  display: table-cell;
-  vertical-align: middle;
-  width: 100vw;
-  height: 100vh;
+
+#tribute-info {
+  margin-top: 20px;
+  text-align: justify;
 }
-#projects{
-  background-color: #060a9c;
-  color: #ffffff;
-  display: table-cell;
-  vertical-align: middle;
-  width: 100vw;
-  height: 100vh;
-}
-#contact{
-  background-color: #03300b;
-  color: #ffffff;
-  display: table-cell;
-  vertical-align: middle;
-  width: 100vw;
-  height: 100vh;
+
+#tribute-link {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
 }
